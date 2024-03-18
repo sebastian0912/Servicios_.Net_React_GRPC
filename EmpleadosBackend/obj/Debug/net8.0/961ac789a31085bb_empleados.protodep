@@ -1,0 +1,6 @@
+obj\Debug\net8.0\.\Protos/Empleados.cs \
+obj\Debug\net8.0\.\Protos/EmpleadosGrpc.cs: C:/Users/MidNight/.nuget/packages/grpc.tools/2.62.0/build/native/include/google/protobuf/empty.proto\
+ google/api/http.proto\
+ C:/Users/MidNight/.nuget/packages/grpc.tools/2.62.0/build/native/include/google/protobuf/descriptor.proto\
+ google/api/annotations.proto\
+ Protos/empleados.proto

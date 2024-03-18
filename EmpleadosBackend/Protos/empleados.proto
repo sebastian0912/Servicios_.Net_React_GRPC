@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package empleados;
+
+import "google/protobuf/empty.proto";
+import "google/api/annotations.proto";
+
+option csharp_namespace = "EmpleadosBackend.Services";
+
+message Empleado {
+  string cedula = 1;
+  string nombre = 2;
+  string apellido = 3;
+  string cargo = 4;
+  double salario = 5; // Ahora es un string.
+}
+
+
+
+// Servicio que define las operaciones CRUD y específicas
+service EmpleadosService {
+  rpc CrearEmpleado (Empleado) returns (Empleado){
+    option (google.api.http) = {
+      post: "/CrearEmpleados",
+      body: "*",      
+    };
+  };
+  rpc EditarEmpleado (Empleado) returns (Empleado);
+  rpc EliminarEmpleado (Empleado) returns (Empleado);
+  rpc BuscarPorCedula (Empleado) returns (Empleado);
+  rpc TraerTodos (google.protobuf.Empty) returns (stream Empleado);
+  rpc ContarEmpleados (google.protobuf.Empty) returns (EmpleadoCount);
+}
+
+// Mensaje para contar empleados
+message EmpleadoCount {
+  int32 count = 1;
+}

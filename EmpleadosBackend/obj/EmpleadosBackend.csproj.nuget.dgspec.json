@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MidNight\\Desktop\\Taller\\EmpleadosBackend\\EmpleadosBackend.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MidNight\\Desktop\\Taller\\EmpleadosBackend\\EmpleadosBackend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MidNight\\Desktop\\Taller\\EmpleadosBackend\\EmpleadosBackend.csproj",
+        "projectName": "EmpleadosBackend",
+        "projectPath": "C:\\Users\\MidNight\\Desktop\\Taller\\EmpleadosBackend\\EmpleadosBackend.csproj",
+        "packagesPath": "C:\\Users\\MidNight\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MidNight\\Desktop\\Taller\\EmpleadosBackend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MidNight\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CassandraCSharpDriver": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.26.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.61.0, )"
+            },
+            "Grpc.AspNetCore.Web": {
+              "target": "Package",
+              "version": "[2.61.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.61.0, )"
+            },
+            "Grpc.Net.Client.Web": {
+              "target": "Package",
+              "version": "[2.61.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.62.0, )"
+            },
+            "microsoft.aspnetcore.grpc.jsontranscoding": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "microsoft.entityFrameworkCore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
