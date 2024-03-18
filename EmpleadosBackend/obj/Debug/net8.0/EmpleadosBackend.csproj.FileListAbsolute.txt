@@ -100,6 +100,7 @@ C:\Users\MidNight\Desktop\Taller\EmpleadosBackend\obj\Debug\net8.0\EmpleadosBack
 C:\Users\MidNight\Desktop\Taller\EmpleadosBackend\obj\Debug\net8.0\EmpleadosBackend.csproj.CoreCompileInputs.cache
 C:\Users\MidNight\Desktop\Taller\EmpleadosBackend\obj\Debug\net8.0\EmpleadosBackend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\MidNight\Desktop\Taller\EmpleadosBackend\obj\Debug\net8.0\EmpleadosBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MidNight\Desktop\Taller\EmpleadosBackend\obj\Debug\net8.0\EmpleadosBackend.sourcelink.json
 C:\Users\MidNight\Desktop\Taller\EmpleadosBackend\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\MidNight\Desktop\Taller\EmpleadosBackend\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\MidNight\Desktop\Taller\EmpleadosBackend\obj\Debug\net8.0\staticwebassets\msbuild.EmpleadosBackend.Microsoft.AspNetCore.StaticWebAssets.props

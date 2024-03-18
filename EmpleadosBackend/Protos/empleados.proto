@@ -25,7 +25,12 @@ service EmpleadosService {
       body: "*",      
     };
   };
-  rpc EditarEmpleado (Empleado) returns (Empleado);
+  rpc EditarEmpleado (Empleado) returns (Empleado){
+    option (google.api.http) = {
+      put: "/EditarEmpleados",
+      body: "*",      
+    };
+  };
   rpc EliminarEmpleado (Empleado) returns (Empleado);
   rpc BuscarPorCedula (Empleado) returns (Empleado);
   rpc TraerTodos (google.protobuf.Empty) returns (stream Empleado);
